@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+
+    .about .col-md-6:nth-child(2) .inner-abo,
+    .about .col-md-6:nth-child(4) .inner-abo {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .clients .inner-cli {
+        padding: 40px !important;
+    }
+}
